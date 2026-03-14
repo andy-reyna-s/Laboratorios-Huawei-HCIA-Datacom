@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="5B4901BC-6032-4205-971A-3A4CE74B4B77" name="AR1" poe="0" model="AR2240" settings="" system_mac="00-E0-FC-49-06-DC" com_port="2000" bootmode="0" cx="294.000000" cy="288.000000" edit_left="321" edit_top="342">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="7A6A4C79-653A-4c9e-A56D-1D802F78A3AF" name="AR2" poe="0" model="AR2240" settings="" system_mac="00-E0-FC-3C-32-85" com_port="2001" bootmode="0" cx="684.000000" cy="284.000000" edit_left="711" edit_top="338">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="5B4901BC-6032-4205-971A-3A4CE74B4B77" destDeviceID="7A6A4C79-653A-4c9e-A56D-1D802F78A3AF">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="364.181488" srcBoundRect_Y="314.557098" srcOffset_X="-12.000000" srcOffset_Y="8.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="667.818481" tarBoundRect_Y="311.442902" tarOffset_X="-32.000000" tarOffset_Y="5.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips>
+        <txttip left="201" top="309" right="280" bottom="326" content="FTP Client" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="744" top="300" right="823" bottom="317" content="FTP Server" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="359" top="289" right="454" bottom="306" content="10.0.12.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="576" top="287" right="671" bottom="304" content="10.0.12.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="98" top="196" right="276" bottom="213" content="IP addresses configured" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>
